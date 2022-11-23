@@ -9,8 +9,58 @@
 </head>
 
 <body>
+    <form action="">
+        <h1>Basic HTML Form</h1>
+        <!-- Name form -->
+        <fieldset>
+            <legend>Name</legend>
+            <label for="">First Name</label>
+            <input type="text"> <br>
+            <label for="">Last Name</label>
+            <input type="text">
+        </fieldset>
+        <!-- Questions form -->
+        <fieldset>
+            <legend>Other Questions</legend>
+            <!-- radio buttons -->
+            <p>Choose a drink:</p>
+            <input type="radio" id="coffee" name="drink" value="coffee">
+            <label for="coffee">coffee</label><br>
+            <input type="radio" id="tea" name="drink" value="tea">
+            <label for="tea">tea</label><br>
+            <input type="radio" id="hot chocolate" name="drink" value="JavaScript">
+            <label for="hot chocolate">hot chocolate</label>
+            <!-- New Section -->
+            <p>What ice cream do you like?</p>
+            <!-- check boxes -->
+            <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+            <label for="Chocolate">Chocolate</label><br>
+            <input type="checkbox" id="Chocolate Pudding" name="Chocolate Pudding" value="Chocolate Pudding">
+            <label for="Chocolate Pudding">Chocolate Pudding</label><br>
+            <input type="checkbox" id="Peanut Butter" name="Peanut Butter" value="Peanut Butter">
+            <label for="Peanut Butter">Chocolate Peanut Butter</label><br>
+            <input type="checkbox" id="Vanilla" name="Vanilla" value="Vanilla">
+            <label for="Vanilla">Vanilla</label><br>
+            <input type="checkbox" id="Strawberry" name="Strawberry" value="Strawberry">
+            <label for="Strawberry">Strawberry</label><br>
 
-    <h1>Test</h1>
+            <!-- New Section Schools -->
+            <p>Select a School:</p>
+            <select name="Schools" id="Schools">
+                <option value="harvard">Harvard</option>
+                <option value="AUG">AUG</option>
+                <option value="IUG">IUG</option>
+                <option value="UP">UP</option>
+              </select>
+            <!-- new Section Text area -->
+            <p>Please provide comments:</p>
+            <textarea name="comments" id="comments" cols="30" rows="4"></textarea>
+        </fieldset>
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+
 </body>
 
 </html>
